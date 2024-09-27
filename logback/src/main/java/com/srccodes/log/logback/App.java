@@ -143,7 +143,7 @@ public class App {
 				// TODO: handle exception
 				logger.error("error closing connection : {}" , e2.getMessage());
 			}
-			logger.info("Application closed");
+			logger.info("Application closed successfully");
 		}
 		
 		
@@ -224,6 +224,7 @@ public class App {
 
 			// TODO: handle exception
 			logger.error("error deleting employee: {}" , e.getMessage());
+			
 		}
 		
 		

@@ -998,3 +998,5 @@ org.eclipse.core.runtime.CoreException: Launch configuration App (1) references 
 2024-09-26 10:35:31,877 [Worker-41: Launching App (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/eclipse-workspace/logback/src/test/resources
 2024-09-26 14:28:36,524 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@259826e0{STOPPING}[12.0.12,sto=0]
 2024-09-26 14:28:36,533 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@d9efac6{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-09-27 11:02:34,940 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-27 11:03:04,893 [Worker-15: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:postgresql:0.0.1-SNAPSHOT @ /Users/confluxsys/eclipse-workspace/postgresql/pom.xml.
