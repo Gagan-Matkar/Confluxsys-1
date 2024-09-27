@@ -1,0 +1,16 @@
+ package com.springcore.lifecycle;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		 ApplicationContext c =new ClassPathXmlApplicationContext("com/springcore/lifecycle/config.xml");
+		 
+		 S s1 = (S) c.getBean("s1");
+		 
+		 System.out.println(s1);
+		 
+	}
+}

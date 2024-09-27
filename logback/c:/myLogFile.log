@@ -1,0 +1,83 @@
+2024-09-25 14:49:50,250 [main] TRACE  com.srccodes.log.logback.App - hello
+2024-09-25 14:49:50,252 [main] DEBUG  com.srccodes.log.logback.App - hi, Gagan
+2024-09-25 14:49:50,252 [main] INFO   com.srccodes.log.logback.App - welcome to the staring of  the program
+2024-09-25 14:49:50,252 [main] WARN   com.srccodes.log.logback.App - dummy warning message
+2024-09-25 14:49:50,252 [main] ERROR  com.srccodes.log.logback.App - dummy error
+2024-09-25 14:49:59,368 [main] TRACE  com.srccodes.log.logback.App - hello
+2024-09-25 14:49:59,371 [main] DEBUG  com.srccodes.log.logback.App - hi, Gagan
+2024-09-25 14:49:59,371 [main] INFO   com.srccodes.log.logback.App - welcome to the staring of  the program
+2024-09-25 14:49:59,371 [main] WARN   com.srccodes.log.logback.App - dummy warning message
+2024-09-25 14:49:59,371 [main] ERROR  com.srccodes.log.logback.App - dummy error
+2024-09-25 14:56:31,541 [main] TRACE  com.srccodes.log.logback.App - hello
+2024-09-25 14:56:31,543 [main] DEBUG  com.srccodes.log.logback.App - hi, Gagan
+2024-09-25 14:56:31,543 [main] INFO   com.srccodes.log.logback.App - welcome to the staring of  the program
+2024-09-25 14:56:31,544 [main] WARN   com.srccodes.log.logback.App - dummy warning message
+2024-09-25 14:56:31,544 [main] ERROR  com.srccodes.log.logback.App - dummy error
+2024-09-25 15:16:28,409 [main] INFO   com.srccodes.log.logback.App - Application started
+2024-09-25 15:16:28,721 [main] INFO   com.srccodes.log.logback.App - connected to the database successfully !!
+2024-09-25 15:16:28,722 [main] INFO   com.srccodes.log.logback.App - application finished
+2024-09-25 15:18:11,198 [main] INFO   com.srccodes.log.logback.App - Application started
+2024-09-25 15:18:11,521 [main] INFO   com.srccodes.log.logback.App - connected to the database successfully !!
+2024-09-25 15:18:11,523 [main] INFO   com.srccodes.log.logback.App - application finished
+2024-09-25 15:24:02,474 [main] INFO   com.srccodes.log.logback.App - Application started
+2024-09-25 15:24:02,936 [main] INFO   com.srccodes.log.logback.App - connected to the database successfully !!
+2024-09-25 15:24:02,939 [main] INFO   com.srccodes.log.logback.App - application finished
+2024-09-25 15:33:07,866 [main] INFO   com.srccodes.log.logback.App - Application started
+2024-09-25 15:33:08,283 [main] INFO   com.srccodes.log.logback.App - connected to the database successfully !!
+2024-09-25 15:33:08,283 [main] DEBUG  com.srccodes.log.logback.App - executing query : SELECT *  FROM employees 
+2024-09-25 15:33:08,352 [main] INFO   com.srccodes.log.logback.App - employee ID: 1 , Name: alice
+2024-09-25 15:33:08,352 [main] INFO   com.srccodes.log.logback.App - employee ID: 2 , Name: bob
+2024-09-25 15:33:08,352 [main] INFO   com.srccodes.log.logback.App - employee ID: 3 , Name: charlie
+2024-09-25 15:33:08,352 [main] INFO   com.srccodes.log.logback.App - employee ID: 4 , Name: dina
+2024-09-25 15:33:08,353 [main] INFO   com.srccodes.log.logback.App - query executed successfully
+2024-09-25 15:33:08,354 [main] INFO   com.srccodes.log.logback.App - application finished
+2024-09-26 10:31:12,259 [main] INFO   com.srccodes.log.logback.App - Application started
+2024-09-26 10:31:24,324 [main] DEBUG  com.srccodes.log.logback.App - executing query SELECT * FROM employees
+2024-09-26 10:31:24,407 [main] INFO   com.srccodes.log.logback.App - reading employees
+2024-09-26 10:31:24,408 [main] INFO   com.srccodes.log.logback.App - Employee ID: 1 , Name: alice
+2024-09-26 10:31:24,409 [main] INFO   com.srccodes.log.logback.App - Employee ID: 2 , Name: bob
+2024-09-26 10:31:24,409 [main] INFO   com.srccodes.log.logback.App - Employee ID: 3 , Name: charlie
+2024-09-26 10:31:24,409 [main] INFO   com.srccodes.log.logback.App - Employee ID: 4 , Name: dina
+2024-09-26 10:31:55,024 [main] INFO   com.srccodes.log.logback.App - employee ID 2 updated to 'gagan'.
+2024-09-26 10:32:01,970 [main] DEBUG  com.srccodes.log.logback.App - executing query SELECT * FROM employees
+2024-09-26 10:32:01,972 [main] INFO   com.srccodes.log.logback.App - reading employees
+2024-09-26 10:32:01,973 [main] INFO   com.srccodes.log.logback.App - Employee ID: 1 , Name: alice
+2024-09-26 10:32:01,973 [main] INFO   com.srccodes.log.logback.App - Employee ID: 3 , Name: charlie
+2024-09-26 10:32:01,973 [main] INFO   com.srccodes.log.logback.App - Employee ID: 4 , Name: dina
+2024-09-26 10:32:01,974 [main] INFO   com.srccodes.log.logback.App - Employee ID: 2 , Name: gagan
+2024-09-26 10:32:35,323 [main] DEBUG  com.srccodes.log.logback.App - executing query SELECT * FROM employees
+2024-09-26 10:32:35,326 [main] INFO   com.srccodes.log.logback.App - reading employees
+2024-09-26 10:32:35,326 [main] INFO   com.srccodes.log.logback.App - Employee ID: 1 , Name: alice
+2024-09-26 10:32:35,326 [main] INFO   com.srccodes.log.logback.App - Employee ID: 3 , Name: charlie
+2024-09-26 10:32:35,327 [main] INFO   com.srccodes.log.logback.App - Employee ID: 4 , Name: dina
+2024-09-26 10:32:35,327 [main] INFO   com.srccodes.log.logback.App - Employee ID: 2 , Name: gagan
+2024-09-26 10:32:48,941 [main] INFO   com.srccodes.log.logback.App - employee ID 4 deleted.
+2024-09-26 10:32:50,523 [main] DEBUG  com.srccodes.log.logback.App - executing query SELECT * FROM employees
+2024-09-26 10:32:50,527 [main] INFO   com.srccodes.log.logback.App - reading employees
+2024-09-26 10:32:50,527 [main] INFO   com.srccodes.log.logback.App - Employee ID: 1 , Name: alice
+2024-09-26 10:32:50,527 [main] INFO   com.srccodes.log.logback.App - Employee ID: 3 , Name: charlie
+2024-09-26 10:32:50,528 [main] INFO   com.srccodes.log.logback.App - Employee ID: 2 , Name: gagan
+2024-09-26 10:33:10,169 [main] INFO   com.srccodes.log.logback.App - closing the database connection
+2024-09-26 10:33:10,169 [main] INFO   com.srccodes.log.logback.App - Application closed
+2024-09-26 10:35:33,082 [main] INFO   com.srccodes.log.logback.App - Application started
+2024-09-26 10:35:45,170 [main] DEBUG  com.srccodes.log.logback.App - executing query SELECT * FROM employees ORDER BY id
+2024-09-26 10:35:45,194 [main] INFO   com.srccodes.log.logback.App - reading employees
+2024-09-26 10:35:45,195 [main] INFO   com.srccodes.log.logback.App - Employee ID: 1 , Name: alice
+2024-09-26 10:35:45,195 [main] INFO   com.srccodes.log.logback.App - Employee ID: 2 , Name: gagan
+2024-09-26 10:35:45,195 [main] INFO   com.srccodes.log.logback.App - Employee ID: 3 , Name: charlie
+2024-09-26 10:35:59,063 [main] INFO   com.srccodes.log.logback.App - Employee 'kunal' created successfully
+2024-09-26 10:36:02,081 [main] DEBUG  com.srccodes.log.logback.App - executing query SELECT * FROM employees ORDER BY id
+2024-09-26 10:36:02,082 [main] INFO   com.srccodes.log.logback.App - reading employees
+2024-09-26 10:36:02,084 [main] INFO   com.srccodes.log.logback.App - Employee ID: 1 , Name: alice
+2024-09-26 10:36:02,084 [main] INFO   com.srccodes.log.logback.App - Employee ID: 2 , Name: gagan
+2024-09-26 10:36:02,084 [main] INFO   com.srccodes.log.logback.App - Employee ID: 3 , Name: charlie
+2024-09-26 10:36:02,085 [main] INFO   com.srccodes.log.logback.App - Employee ID: 5 , Name: kunal
+2024-09-26 10:46:29,624 [main] INFO   com.srccodes.log.logback.App - employee ID 2 updated to 'tim'.
+2024-09-26 10:46:32,197 [main] DEBUG  com.srccodes.log.logback.App - executing query SELECT * FROM employees ORDER BY id
+2024-09-26 10:46:32,199 [main] INFO   com.srccodes.log.logback.App - reading employees
+2024-09-26 10:46:32,200 [main] INFO   com.srccodes.log.logback.App - Employee ID: 1 , Name: alice
+2024-09-26 10:46:32,200 [main] INFO   com.srccodes.log.logback.App - Employee ID: 2 , Name: tim
+2024-09-26 10:46:32,201 [main] INFO   com.srccodes.log.logback.App - Employee ID: 3 , Name: charlie
+2024-09-26 10:46:32,201 [main] INFO   com.srccodes.log.logback.App - Employee ID: 5 , Name: kunal
+2024-09-26 10:46:42,154 [main] INFO   com.srccodes.log.logback.App - closing the database connection
+2024-09-26 10:46:42,154 [main] INFO   com.srccodes.log.logback.App - Application closed

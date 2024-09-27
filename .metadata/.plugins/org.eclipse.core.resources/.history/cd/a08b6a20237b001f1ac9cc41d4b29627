@@ -1,0 +1,45 @@
+package com.srccodes.log.logback;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import org.slf4j.*;
+
+
+public class App {
+	private static final Logger logger = LoggerFactory.getLogger(App.class);
+
+	public static void main(String[] args) {
+	
+//		logger.trace("hello");
+//		
+//		String name = "Gagan";
+//		
+//		logger.debug("hi, {}" ,name);
+//		logger.info("welcome to the staring of  the program");
+//		logger.warn("dummy warning message");
+//		logger.error("dummy error");
+		
+		logger.info("Application started");
+        String url = "jdbc:postgresql://localhost:5432/demo";
+        String user = "postgres";
+        String password = "Gagan@confluxsys";
+        
+        try(Connection conn  = DriverManager.getConnection(url, user, password)){
+        	logger.info("connected to the database successfully !!");
+        	
+//        	String query = "SELECT *  FROM employees";
+//        	logger.debug("executing query : {} ", query);
+        	
+        } catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			logger.error( "An error occoured : {}" ,e.getMessage());
+		}finally {
+			logger.info("application finished");
+		}
+		
+		
+	}
+
+}

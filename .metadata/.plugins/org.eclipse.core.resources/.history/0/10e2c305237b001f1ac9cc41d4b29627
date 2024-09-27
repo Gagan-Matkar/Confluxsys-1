@@ -1,0 +1,20 @@
+package com.srccodes.log.logback;
+import org.slf4j.*;
+
+
+public class App {
+	private static final Logger logger = LoggerFactory.getLogger(App.class);
+
+	public static void main(String[] args) {
+	
+		logger.trace("hello");
+		
+		String name = "Gagan";
+		
+		logger.debug("hi, {}" ,name);
+		logger.info("welcome to the staring of  the program");
+		logger.warn("dummy warning message");
+		logger.error("dummy error");
+	}
+
+}
