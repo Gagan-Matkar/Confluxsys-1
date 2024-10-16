@@ -14,5 +14,7 @@ public class App
         UserDAOImpl userDAO = new UserDAOImpl();
         
         UserService userService = new UserService(userDAO);
+        
+        User user = new User(0,'gagan matkar ', )
     }
 }
