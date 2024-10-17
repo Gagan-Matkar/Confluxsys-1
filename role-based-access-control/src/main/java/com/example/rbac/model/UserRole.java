@@ -1,34 +1,35 @@
 package com.example.rbac.model;
 
 public class UserRole {
-    private int userId;
-    private int roleId;
+	private int userId;
+	private int roleId;
 
-        public UserRole() {}
+	public UserRole() {
+	}
 
-    public UserRole(int userId, int roleId) {
-        this.userId = userId;
-        this.roleId = roleId;
-    }
+	public UserRole(int userId, int roleId) {
+		this.userId = userId;
+		this.roleId = roleId;
+	}
 
-        public int getUserId() {
-        return userId;
-    }
+	public int getUserId() {
+		return userId;
+	}
 
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
 
-    public int getRoleId() {
-        return roleId;
-    }
+	public int getRoleId() {
+		return roleId;
+	}
 
-    public void setRoleId(int roleId) {
-        this.roleId = roleId;
-    }
+	public void setRoleId(int roleId) {
+		this.roleId = roleId;
+	}
 
-        @Override
-    public String toString() {
-        return "UserRole [userId=" + userId + ", roleId=" + roleId + "]";
-    }
+	@Override
+	public String toString() {
+		return "UserRole [userId=" + userId + ", roleId=" + roleId + "]";
+	}
 }
