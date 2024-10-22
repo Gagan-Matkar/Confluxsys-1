@@ -11,8 +11,8 @@ public interface RoleDAO {
 
 	List<Role> getAllRoles();
 
-	void updateRole();
+	void updateRole(Role role);
 
-	void deleteRole();
+	void deleteRole(int roleId);
 
 }
