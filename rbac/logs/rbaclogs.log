@@ -1,0 +1,29 @@
+2024-10-23 08:52:43,220 [main] INFO   com.example.rbac.App - Starting the process...
+2024-10-23 08:52:43,222 [main] INFO   com.example.rbac.Accesspolicy - Starting the policy induction for legacy access
+2024-10-23 08:52:43,223 [main] INFO   com.example.rbac.DatabaseConnection - Connecting to the database...
+2024-10-23 08:52:43,757 [main] INFO   com.example.rbac.DatabaseConnection - Connection established.
+2024-10-23 08:52:43,831 [main] INFO   com.example.rbac.Accesspolicy - executing query : select ua.user1 , ua.entitlement , ap.policy from user_access ua
+join access_policies ap on ua.entitlement = ap.entitlement
+where ua.policy is null ;
+2024-10-23 08:52:43,831 [main] DEBUG  com.example.rbac.Accesspolicy - Processing user: u3, entitlement: e1
+2024-10-23 08:52:43,831 [main] INFO   com.example.rbac.Accesspolicy - Induced policy : for user u3
+2024-10-23 08:52:43,831 [main] INFO   com.example.rbac.Accesspolicy - executing query : select ua.user1 , ua.entitlement , ap.policy from user_access ua
+join access_policies ap on ua.entitlement = ap.entitlement
+where ua.policy is null ;
+2024-10-23 08:52:43,831 [main] DEBUG  com.example.rbac.Accesspolicy - Processing user: u2, entitlement: e2
+2024-10-23 08:52:43,831 [main] INFO   com.example.rbac.Accesspolicy - Induced policy : for user u2
+2024-10-23 08:52:43,831 [main] INFO   com.example.rbac.Accesspolicy - executing query : select ua.user1 , ua.entitlement , ap.policy from user_access ua
+join access_policies ap on ua.entitlement = ap.entitlement
+where ua.policy is null ;
+2024-10-23 08:52:43,832 [main] DEBUG  com.example.rbac.Accesspolicy - Processing user: u2, entitlement: e2
+2024-10-23 08:52:43,832 [main] INFO   com.example.rbac.Accesspolicy - Induced policy : for user u2
+2024-10-23 08:52:43,835 [main] INFO   com.example.rbac.Accesspolicy - Finished policy induction
+2024-10-23 08:52:43,852 [main] INFO   com.example.rbac.App - CSV generated for induced access policies
+2024-10-23 08:52:43,853 [main] INFO   com.example.rbac.Accesspolicy - Starting role assignment suggestion for legacy access.
+2024-10-23 08:52:43,853 [main] INFO   com.example.rbac.DatabaseConnection - Connecting to the database...
+2024-10-23 08:52:43,923 [main] INFO   com.example.rbac.DatabaseConnection - Connection established.
+2024-10-23 08:52:43,933 [main] INFO   com.example.rbac.Accesspolicy - executing query : select ua.user1, ap.role from user_access ua 
+inner join access_policies ap on ua.entitlement = ap.entitlement 
+where ua.policy IS NULL;
+2024-10-23 08:52:43,936 [main] INFO   com.example.rbac.App - CSV generated for suggested role assignments
+2024-10-23 08:52:43,936 [main] INFO   com.example.rbac.App - Process completed successfully.
