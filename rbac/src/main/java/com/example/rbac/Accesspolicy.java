@@ -25,7 +25,6 @@ public class Accesspolicy {
 			while (rs.next()) {
 				logger.info("executing query : {}", query);
 
-
 				String userId = rs.getString("user1");
 				String entitlement = rs.getString("entitlement");
 				String policy = rs.getString("policy");
@@ -45,7 +44,7 @@ public class Accesspolicy {
 	}
 
 	public List<String[]> suggestRole() throws SQLException {
-        logger.info("Starting role assignment suggestion for legacy access.");
+		logger.info("Starting role assignment suggestion for legacy access.");
 
 		List<String[]> result = new ArrayList<>();
 
@@ -70,8 +69,8 @@ public class Accesspolicy {
 
 		} catch (SQLException e) {
 			// TODO: handle exception
-			
-			logger.error("Error while role assignment for legacy access ," ,e);
+
+			logger.error("Error while role assignment for legacy access ,", e);
 		}
 
 		return result;
